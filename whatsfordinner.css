@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lusitana&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arimo|Noto+Sans+JP&display=swap');
 
 .zdog-canvas {
   cursor: move;
@@ -6,7 +7,7 @@
 }
 
 h1 {
-  font-family: 'Lusitana', serif;
+  font-family: 'Noto Sans JP', sans-serif;
   text-align: center;
   color: #065900;
   font-size: 100px;
