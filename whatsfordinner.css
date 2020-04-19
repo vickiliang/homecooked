@@ -25,7 +25,7 @@ span.date{
 
 @keyframes whatsfordinner {
   from {margin-left: 100%;
-  width: 200%}
+  width: 100%}
   to {margin-right: 50%;
   width: 100%}
 }
