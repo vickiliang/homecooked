@@ -10,7 +10,9 @@ h1 {
   font-size: 50px;
   position: relative;
   animation: whatsfordinner 3s;
-  animation-timing-function: ease-in-out;
+  margin-top: 0%;
+  overflow: hidden;
+
 }
 
 span.date{
@@ -24,8 +26,8 @@ span.date{
 }
 
 @keyframes whatsfordinner {
-  from {margin-left: 0%;
-  width: 200%}
-  to {margin-right: 50%;
+  from {margin-top:-50%;
+  height: 300%}
+  to {margin-top: 0%;
   width: 100%}
 }
