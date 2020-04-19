@@ -24,7 +24,7 @@ h1 {
   text-align: center;
 }
 
-div.submit{
+div{
   font-family: 'Lusitana', serif;
   text-align: center;
   color: #ffa726;
@@ -32,10 +32,12 @@ div.submit{
   position: absolute;
   bottom:0;
 }
+
 .submit {
   position: absolute;
   bottom: 0px;
 }
+
 span.date{
   margin-top: 1%;
   font-family: savate;
