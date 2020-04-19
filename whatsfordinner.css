@@ -10,9 +10,14 @@ h1 {
   font-size: 50px;
   position: relative;
   animation: whatsfordinner 3s;
-  margin-top: 0%;
-  overflow: hidden;
 
+  overflow: hidden;
+  @keyframes whatsfordinner {
+    from {margin-top:-50%;
+    height: 300%}
+    to {margin-top: 0%;
+    width: 100%}
+  }
 }
 
 span.date{
@@ -23,11 +28,4 @@ span.date{
   font-size: 20px;
   position: absolute;
   right: 20px;
-}
-
-@keyframes whatsfordinner {
-  from {margin-top:-50%;
-  height: 300%}
-  to {margin-top: 0%;
-  width: 100%}
 }
