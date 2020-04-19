@@ -1,0 +1,9 @@
+h1 {
+  font-family: savate;
+  color: pink;
+  font-size: 100px;
+  font-style: italic;
+  position: relative;
+  animation: sunny 3s;
+  animation-timing-function: ease-in-out;
+}

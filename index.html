@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" type="text/css"
+href="whatsfordinner.css" media="screen"/>
+
+<canvas class="zdog-canvas"
+width="240" height="240"></canvas>
+
+<script src="https://unpkg.com/zdog@1/dist/zdog.dist.min.js"></script>
+<script src="js/zdog-demo.js"></script>
+
+
+<head>
+  <title>what's for dinner tonight?</title>
+</head>
+
+<body>
+<h1> What's for dinner tonight? </h1>
+
+<script>
+
+var today = new Date();
+
+var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+document.getElementById("date").innerHTML = date;
+
+document.getElementById("date").style.color = "black";
+document.getElementById("date").style.fontFamily = "Lusitana";
+document.getElementById("date").style.fontSize = "20px";
+document.getElementById("date").style.fontStyle = "normal";
+document.getElementById("date").style.position = "absolute";
+document.getElementById("date").style.right = "20px";
+document.getElementById("date").style.top = "20px";
+
+</script>
+
+</body>
+
+</html>
