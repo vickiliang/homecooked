@@ -2,6 +2,7 @@
 
 .zdog-canvas {
   cursor: move;
+  object-position: center;
 }
 
 h1 {
