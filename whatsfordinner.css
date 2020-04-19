@@ -19,6 +19,14 @@ h1 {
   text-align: center;
 }
 
+h3{
+  font-family: 'Lusitana', serif;
+  text-align: center;
+  color: #ffa726;
+  font-size: 30px;
+  position: relative;
+}
+
 span.date{
   margin-top: 1%;
   font-family: savate;
