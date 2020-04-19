@@ -36,6 +36,7 @@ div{
 .submit {
   position: absolute;
   bottom: 0px;
+  left: 50%;
 }
 
 span.date{
