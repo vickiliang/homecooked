@@ -27,7 +27,7 @@ h1 {
 div{
   font-family: 'Noto Sans JP', sans-serif;
   text-align: center;
-  color: #ffa726;
+  color: #0d47a1;
   font-size: 20px;
 
 }
@@ -35,9 +35,13 @@ div{
 .submit {
   position: fixed;
      left: 0;
-     bottom: 0;
+     bottom: 10px;
      width: 100%;
      text-align: center;
+}
+
+.submit:visited {
+  color:#0d47a1;
 }
 
 span.date{
