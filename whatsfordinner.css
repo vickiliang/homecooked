@@ -25,18 +25,18 @@ h1 {
 }
 
 div{
-  font-family: 'Lusitana', serif;
+  font-family: 'Noto Sans JP', sans-serif;
   text-align: center;
   color: #ffa726;
   font-size: 30px;
   position: absolute;
   bottom:0;
+  left: 50%;
 }
 
 .submit {
   position: absolute;
   bottom: 0px;
-  left: 50px;
 }
 
 span.date{
