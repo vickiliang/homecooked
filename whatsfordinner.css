@@ -29,14 +29,15 @@ div{
   text-align: center;
   color: #ffa726;
   font-size: 30px;
-  position: absolute;
-  bottom:0;
-  left: 50%;
+
 }
 
 .submit {
-  position: absolute;
-  bottom: 0px;
+  position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     text-align: center;
 }
 
 span.date{
