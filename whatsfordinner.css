@@ -4,10 +4,14 @@
 .zdog-canvas {
   cursor: move;
   object-position: center;
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: (-50%, -50%);
 }
 
 h1 {
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Lusitana', serif;
   text-align: center;
   color: #065900;
   font-size: 100px;
