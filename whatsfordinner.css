@@ -12,7 +12,9 @@ h1 {
   position: relative;
   animation: 2s whatsfordinner;
   animation-timing-function: ease-in-out;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 span.date{
