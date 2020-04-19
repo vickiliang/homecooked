@@ -1,9 +1,30 @@
+.zdog-canvas {
+  cursor: move;
+}
+
 h1 {
   font-family: savate;
   color: pink;
   font-size: 100px;
   font-style: italic;
   position: relative;
-  animation: sunny 3s;
+  animation: whatsfordinner 3s;
   animation-timing-function: ease-in-out;
+}
+
+span.date{
+  margin-top: 1%;
+  font-family: savate;
+  font-style: normal;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  right: 20px;
+}
+
+@keyframes whatsfordinner {
+  from {margin-left: 100%;
+  width: 200%}
+  to {margin-right: 0%;
+  width: 100%}
 }
