@@ -45,8 +45,13 @@ a:visited {
   color:#0d47a1;
 }
 
+.cookie{
+  width:auto;
+  text-align:center;
+}
+
 img{
-  width: 10%;
+  max-width: 50%;
   height: auto;
 }
 span.date{
