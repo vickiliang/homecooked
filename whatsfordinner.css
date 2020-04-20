@@ -8,13 +8,13 @@
   position: fixed;
   top:50%;
   left:50%;
-  transform: (-50%, -50%);
+  transform: (-25%, -25%);
 }
 
 h1 {
   font-family: 'IM Fell French Canon SC', serif;
   text-align: center;
-  color: #065900;
+  color: #00b0ff;
   font-size: 50px;
   position: relative;
   animation: 2s whatsfordinner;
@@ -42,7 +42,7 @@ div{
 }
 
 a:visited {
-  color:black;
+  color:#0d47a1;
 }
 
 span.date{
