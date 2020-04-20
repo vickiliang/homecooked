@@ -45,6 +45,10 @@ a:visited {
   color:#0d47a1;
 }
 
+img{
+  width: 80%;
+  height: auto;
+}
 span.date{
   margin-top: 1%;
   font-family: savate;
