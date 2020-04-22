@@ -22,7 +22,7 @@ div.method{
   margin-right: 20px;
 }
 
-.chocochip-chickpea-cookies{
+div.chocochip-chickpea-cookies{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
