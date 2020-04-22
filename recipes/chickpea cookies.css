@@ -14,10 +14,15 @@ p{
   color: black;
   line-height: 0.8;
 }
-div.chickpea-cookies{
+div.ingredients{
   margin-left: 20px;
 }
 
 div.method{
   float: right;
+}
+
+.chocochip-chickpea-cookies{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
