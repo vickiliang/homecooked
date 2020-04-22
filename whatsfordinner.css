@@ -42,12 +42,14 @@ div{
 }
 
 a:visited {
-  color:#0d47a1;
+  color:#d50000;
 }
 
 .cookie{
   width:auto;
   text-align:center;
+  margin-top: 200px;
+
 }
 
 img{
