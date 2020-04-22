@@ -4,7 +4,7 @@ h1{
   font-family: 'EB Garamond', serif;
   font-size: 50px;
   color: #004d40;
-
+  grid-area: header;
 }
 
 
@@ -16,28 +16,35 @@ p{
 }
 div.ingredients{
   margin-left: 20px;
+  grid-area: main;
 }
 
 div.method{
   margin-right: 20px;
+  grid-area: sidebar;
 }
 
 div.chocochip-chickpea-cookies{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column: centre-start;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas:
+      "header header header header"
+      " . main sidebar . "
+      "footer footer footer footer"
 }
 
 .somethingelse{
   font-family: 'Lusitana', serif;
   text-align: center;
-  color: #0d47a1;
+  color: #d50000;
   font-size: 20px;
   position: fixed;
   left: 0;
   bottom: 10px;
   width: 100%;
   text-align: center;
+  grid-area: footer;
 }
 
 a:visited{
