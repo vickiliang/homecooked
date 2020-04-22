@@ -17,6 +17,7 @@ p{
 div.ingredients{
   margin-left: 20px;
   grid-area: main;
+  grid-area: 2/ col2-start / 2 / 3;
 }
 
 div.method{
@@ -26,12 +27,7 @@ div.method{
 
 div.chocochip-chickpea-cookies{
   display: grid;
-  grid-template-columns: 50px 50px 50px 50px;
-  grid-template-rows: auto;
-  grid-template-areas:
-      "header header header header"
-      " . main sidebar . "
-      "footer footer footer footer"
+
 }
 
 .somethingelse{
