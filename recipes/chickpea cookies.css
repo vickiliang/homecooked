@@ -25,4 +25,21 @@ div.method{
 div.chocochip-chickpea-cookies{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-column: centre-start;
+}
+
+.somethingelse{
+  font-family: 'Lusitana', serif;
+  text-align: center;
+  color: #0d47a1;
+  font-size: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+a:visited{
+    color:#d50000;
 }
