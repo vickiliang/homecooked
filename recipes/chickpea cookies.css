@@ -32,6 +32,7 @@ div.chocochipchickpeacookies{
   align-content: center;
   align-items:flex-start;
   height: 30em;
+  float: right;
 }
 
 span.tips{
