@@ -17,13 +17,15 @@ p{
 div.ingredients{
   margin-left: 20px;
   text-align: right;
+   flex: 1 1 2em;
 }
 
 div.method{
 
-  align-self: flex-end;
+ align-self: flex-end;
  flex: 2 10 5em;
- order: -1;flex: 1 1 2em;
+ order: -1;
+
 }
 
 div.chocochipchickpeacookies{
