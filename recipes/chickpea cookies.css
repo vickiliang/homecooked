@@ -12,7 +12,7 @@ p{
   font-family: 'EB Garamond', serif;
   font-size: 20px;
   color: black;
-  line-height: 1;
+  line-height: 1.5;
 }
 div.ingredients{
   margin-left: 20px;
@@ -27,9 +27,16 @@ div.method{
 div.chocochipchickpeacookies{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items:flex-start;
   height: 40em;
+}
+
+span.tips{
+  font-family: 'EB Garamond', serif;
+  font-size: 10px;
+  color: black;
+  line-height: 1.5;
 }
 
 .somethingelse{
