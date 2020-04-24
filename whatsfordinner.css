@@ -9,7 +9,7 @@ h1 {
   text-align: center;
   color: #004d40;
   font-size: 50px;
-  position: relative;
+  position: fixed;
   animation: 2s whatsfordinner;
   animation-timing-function: ease-in-out;
   display: flex;
@@ -41,8 +41,6 @@ a:visited {
 .cookie{
   width:auto;
   text-align:center;
-  margin-top: 200px;
-
 }
 
 img{
