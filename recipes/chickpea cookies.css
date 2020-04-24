@@ -5,6 +5,7 @@ h1{
   font-size: 50px;
   color: #004d40;
   grid-area: header;
+  margin-top: -10px;
 }
 
 
@@ -62,12 +63,22 @@ span.viola{
 }
 
 img{
-  max-width: 50%;
+  max-width: 20%;
   height: auto;
   position: absolute;
-  right:10px;
-  bottom: 50px
+  left:10px;
+  bottom: 10px
+
+  -webkit-animation:spin 4s linear infinite;
+-moz-animation:spin 4s linear infinite;
+animation:spin 4s linear infinite;
+
 }
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
 
 a:visited{
     color:#f57f17;
