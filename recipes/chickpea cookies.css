@@ -38,7 +38,7 @@ span.tips{
   font-family: 'EB Garamond', serif;
   font-size: 15px;
   font-style: italic;
-  color: #ffc400;
+  color: #1a237e;
 }
 
 span.viola{
@@ -64,12 +64,7 @@ img{
   max-width: 50%;
   height: auto;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 500px;
-  height: 500px;
-  margin-top: -250px;
-  margin-left: -250px;
+  float: right;
 }
 
 a:visited{
