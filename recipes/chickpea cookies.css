@@ -20,7 +20,8 @@ div.ingredients{
 }
 
 div.method{
-
+  
+  flex: 1 1 2em;
 }
 
 div.chocochipchickpeacookies{
@@ -28,6 +29,7 @@ div.chocochipchickpeacookies{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  height: 40em;
 }
 
 .somethingelse{
