@@ -21,7 +21,9 @@ div.ingredients{
 
 div.method{
 
-  flex: 1 1 2em;
+  align-self: flex-end;
+ flex: 2 10 5em;
+ order: -1;flex: 1 1 2em;
 }
 
 div.chocochipchickpeacookies{
@@ -34,7 +36,7 @@ div.chocochipchickpeacookies{
 
 span.tips{
   font-family: 'EB Garamond', serif;
-  font-size: 10px;
+  font-size: 5px;
   color: black;
   line-height: 1.5;
 }
