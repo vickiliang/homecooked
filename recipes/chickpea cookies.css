@@ -49,6 +49,7 @@ span.viola{
   color: black;
   line-height: 3;
 }
+
 .somethingelse{
   font-family: 'Lusitana', serif;
   text-align: center;
@@ -62,14 +63,14 @@ span.viola{
   grid-area: footer;
 }
 
+
 img{
-  max-width: 20%;
+  max-width: 50%;
   height: auto;
   position: absolute;
   left:10px;
-  bottom: 10px
+  bottom: 60px
 	-webkit-animation: rotation 2s infinite linear;
-
 }
 
 @-webkit-keyframes rotation {
@@ -80,6 +81,7 @@ img{
 				-webkit-transform: rotate(359deg);
 		}
 }
+
 
 a:visited{
     color:#f57f17;
