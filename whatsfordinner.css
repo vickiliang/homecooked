@@ -2,14 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo|Noto+Sans+JP&display=swap');
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC&display=swap');
 
-.zdog-canvas {
-  cursor: move;
-  object-position: center;
-  position: fixed;
-  top:50%;
-  left:50%;
-  transform: (-25%, -25%);
-}
+
 
 h1 {
   font-family: 'IM Fell French Canon SC', serif;
@@ -53,7 +46,7 @@ a:visited {
 }
 
 img{
-  max-width: 20%;
+  max-width: 50%;
   height: auto;
 }
 span.date{
