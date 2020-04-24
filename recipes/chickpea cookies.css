@@ -34,6 +34,7 @@ div.chocochipchickpeacookies{
   align-items:flex-start;
   height: 30em;
   float: right;
+  margin-top: 20px;
 }
 
 span.tips{
@@ -65,20 +66,20 @@ span.viola{
 
 
 img{
-  max-width: 50%;
+  max-width: 40%;
   height: auto;
   position: absolute;
   left:10px;
   bottom: 60px
-	-webkit-animation: rotation 2s infinite linear;
+  animation: rotation 2s infinite linear;
 }
 
-@-webkit-keyframes rotation {
+@keyframes rotation {
 		from {
-				-webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
 		}
 		to {
-				-webkit-transform: rotate(359deg);
+			transform: rotate(359deg);
 		}
 }
 
