@@ -17,7 +17,7 @@ p{
 
 div.ingredients{
   margin-left: 20px;
-  text-align: right;
+  text-align: left;
 
 }
 
@@ -27,7 +27,7 @@ div.method{
 
 div.chocochipchickpeacookies{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content:space-evenly;
   align-content: center;
   align-items:flex-start;
@@ -50,7 +50,7 @@ span.viola{
 .somethingelse{
   font-family: 'Lusitana', serif;
   text-align: center;
-  color: #f57f17;
+  color: #0d47a1;
   font-size: 20px;
   position: fixed;
   left: 0;
