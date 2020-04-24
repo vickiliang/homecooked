@@ -14,6 +14,7 @@ p{
   color: black;
   line-height: 1.5;
 }
+
 div.ingredients{
   margin-left: 20px;
   text-align: right;
@@ -24,8 +25,8 @@ div.ingredients{
 div.method{
 
  justify-content: space-around;
- flex: 2 10 5em;
- order: -1;
+ flex: 1 1 2em;
+ order: 2;
 
 }
 
