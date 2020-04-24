@@ -18,11 +18,12 @@ div.ingredients{
   margin-left: 20px;
   text-align: right;
    flex: 1 1 2em;
+   justify-content: space-around;
 }
 
 div.method{
 
- align-self: flex-end;
+ justify-content: space-around;
  flex: 2 10 5em;
  order: -1;
 
