@@ -10,9 +10,9 @@ h1{
 
 p{
   font-family: 'EB Garamond', serif;
-  font-size: 20px;
+  font-size: 18px;
   color: black;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 div.ingredients{
@@ -22,16 +22,13 @@ div.ingredients{
 }
 
 div.method{
-
-
  order: 2;
-
 }
 
 div.chocochipchickpeacookies{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content:space-evenly;
   align-content: center;
   align-items:flex-start;
   height: 30em;
@@ -41,9 +38,15 @@ span.tips{
   font-family: 'EB Garamond', serif;
   font-size: 15px;
   font-style: italic;
-  color: black;
+  color: #1a237e;
 }
 
+span.viola{
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color: black;
+  line-height: 5;
+}
 .somethingelse{
   font-family: 'Lusitana', serif;
   text-align: center;
