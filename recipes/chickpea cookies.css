@@ -18,14 +18,12 @@ p{
 div.ingredients{
   margin-left: 20px;
   text-align: right;
-   flex: 1 1 2em;
-   justify-content: space-around;
+
 }
 
 div.method{
 
- justify-content: space-around;
- flex: 1 1 2em;
+
  order: 2;
 
 }
@@ -34,15 +32,16 @@ div.chocochipchickpeacookies{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-content: center;
   align-items:flex-start;
-  height: 40em;
+  height: 30em;
 }
 
 span.tips{
   font-family: 'EB Garamond', serif;
-  font-size: 5px;
+  font-size: 15px;
+  font-style: italic;
   color: black;
-  line-height: 1.5;
 }
 
 .somethingelse{
