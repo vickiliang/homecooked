@@ -66,15 +66,15 @@ span.viola{
 
 
 img{
-  max-width: 30%;
+  max-width: 50%;
   height: auto;
   position: absolute;
   left:10px;
-  bottom: 60px
-  animation: rotation 2s infinite linear;
+  bottom: 50px
+  animation: 2s infinite linear cookiespin ;
 }
 
-@keyframes rotation {
+@keyframes cookiespin {
 		from {
       transform: rotate(0deg);
 		}
