@@ -22,17 +22,19 @@ h3{
   font-family: 'IM Fell French Canon SC', serif;
   text-align: center;
   color: black;
-  font-size: 200px;
+  font-size: 600px;
   position: relative;
+  margin-bottom: 60px
 }
 
 a.eat:hover{
   font-family: 'IM Fell French Canon SC', serif;
   text-align: center;
   color: #651fff;
-  font-size: 200px;
+  font-size: 600px;
   position: relative;
   font-style: italic;
+  margin-bottom: 60px
 }
 h4{
   font-family: 'IM Fell French Canon SC', serif;
