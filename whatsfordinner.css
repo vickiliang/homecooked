@@ -18,6 +18,31 @@ h1 {
   text-align: center;
 }
 
+h3{
+  font-family: 'IM Fell French Canon SC', serif;
+  text-align: center;
+  color: black;
+  font-size: 200px;
+  position: relative;
+}
+
+a.eat:hover{
+  font-family: 'IM Fell French Canon SC', serif;
+  text-align: center;
+  color: #651fff;
+  font-size: 200px;
+  position: relative;
+  font-style: italic;
+}
+h4{
+  font-family: 'IM Fell French Canon SC', serif;
+  text-align: center;
+  color: black;
+  font-size: 200px;
+  position: relative;
+}
+
+
 div{
   font-family: 'Lusitana', serif;
   text-align: center;
