@@ -8,9 +8,9 @@
 div.eat{
   font-family: 'Lusitana', serif;
   text-align: center;
-  color: #33691e;
+  color: black;
   font-size: 500px;
-  position: absolute;
+  position: relative;
   top:-100px;
   left: 300px;
   align-items: center;
@@ -23,7 +23,7 @@ a.eat:hover{
   text-align: center;
   color: #40c4ff;
   font-size: 500px;
-  position: absolute;
+  position: relative;
   top: -100px;
   left: 300px;
   font-style: italic;
@@ -34,7 +34,7 @@ a.eat:hover{
 h4{
   font-family: 'Lusitana', serif;
   text-align: center;
-  color: #33691e;
+  color: black;
   font-size: 200px;
   position: absolute;
   top:20px;
@@ -84,11 +84,4 @@ span.date{
   font-size: 20px;
   position: absolute;
   right: 20px;
-}
-
-@keyframes whatsfordinner {
-  from {margin-left: 100%;
-  width: 200%}
-  to {margin-right: 0%;
-  width: 100%}
 }
