@@ -14,7 +14,6 @@ div.eat{
   top: 10px;
   left: 0;
   width: 100%;
-  justify-content: center;
 
 }
 
@@ -28,7 +27,7 @@ a.eat:hover{
   left: 0;
   width: 100%;
   font-style: italic;
-  justify-content: center;
+
 }
 
 h4{
@@ -40,7 +39,7 @@ h4{
   text-align: center;
   position: absolute;
   align-items: center;
-  justify-content: center;
+
 }
 
 a.drink:hover{
@@ -53,7 +52,7 @@ a.drink:hover{
   position: absolute;
   font-style: italic;
   align-items: center;
-  justify-content: center;
+
 }
 
 
