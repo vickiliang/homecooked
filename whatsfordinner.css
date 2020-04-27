@@ -18,7 +18,7 @@ h1 {
   text-align: center;
 }
 
-h3{
+div.eat{
   font-family: 'Lusitana', serif;
   text-align: center;
   color: black;
@@ -62,7 +62,7 @@ a.drink:hover{
 }
 
 
-div{
+div.submit{
   font-family: 'Lusitana', serif;
   text-align: center;
   color: #0d47a1;
