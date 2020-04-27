@@ -21,9 +21,10 @@ h1 {
 div.eat{
   font-family: 'Lusitana', serif;
   text-align: center;
-  color: black;
+  color: #000000;
   font-size: 500px;
-  position: relative;
+  position: absolute;
+  top:10%;
   align-items: center;
   justify-content: center;
 
@@ -34,7 +35,8 @@ a.eat:hover{
   text-align: center;
   color: #40c4ff;
   font-size: 500px;
-  position: relative;
+  position: absolute;
+  top:10%;
   font-style: italic;
   align-items: center;
   justify-content: center;
@@ -43,9 +45,10 @@ a.eat:hover{
 h4{
   font-family: 'Lusitana', serif;
   text-align: center;
-  color: black;
+  color: #000000;
   font-size: 200px;
-  position: relative;
+  position: absolute;
+  top:50%;
   align-items: center;
   justify-content: center;
 }
@@ -55,7 +58,8 @@ a.drink:hover{
   text-align: center;
   color: #d500f9;
   font-size: 200px;
-  position: relative;
+  position: absolute;
+  top:50%;
   font-style: italic;
   align-items: center;
   justify-content: center;
