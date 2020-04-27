@@ -24,7 +24,7 @@ div.eat{
   color: #33691e;
   font-size: 500px;
   position: absolute;
-  top:3px;
+  top:-20px;
   left: 10px;
   align-items: center;
   justify-content: center;
@@ -37,7 +37,7 @@ a.eat:hover{
   color: #40c4ff;
   font-size: 500px;
   position: absolute;
-  top:3px;
+  top:-20px;
   left:10px;
   font-style: italic;
   align-items: center;
