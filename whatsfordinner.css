@@ -13,16 +13,22 @@ div.eat{
   color: #000000;
   font-size: 500px;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 10px;
+  left: 30px;
   width: 100%;
   font-style: normal;
 }
+
 
 a.eat:hover{
   color: #40c4ff;
   font-style: italic;
 }
+
+a.eat:visited{
+  color: black;
+}
+
 
 h4{
   font-family: 'Lusitana', serif;
