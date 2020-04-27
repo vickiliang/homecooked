@@ -23,7 +23,7 @@ h3{
   text-align: center;
   color: black;
   font-size: 500px;
-  position: absolute;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,7 +35,7 @@ a.eat:hover{
   text-align: center;
   color: black;
   font-size: 500px;
-  position: absolute;
+  position: relative;
   font-style: italic;
   display: flex;
   align-items: center;
@@ -47,7 +47,7 @@ h4{
   text-align: center;
   color: black;
   font-size: 200px;
-  position: absolute;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,7 +58,7 @@ a.drink:hover{
   text-align: center;
   color: #004d40;
   font-size: 200px;
-  position: absolute;
+  position: relative;
     font-style: italic;
   display: flex;
   align-items: center;
