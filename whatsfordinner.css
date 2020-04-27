@@ -37,8 +37,8 @@ a.eat:hover{
   color: #40c4ff;
   font-size: 500px;
   position: absolute;
-  top:3em;
-  left:10em;
+  top:3px;
+  left:10px;
   font-style: italic;
   align-items: center;
   justify-content: center;
@@ -50,7 +50,7 @@ h4{
   color: #33691e;
   font-size: 200px;
   position: absolute;
-  top:5em;
+  top:20px;
   align-items: center;
   justify-content: center;
 }
