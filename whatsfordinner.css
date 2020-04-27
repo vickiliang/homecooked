@@ -7,10 +7,9 @@
 
 div.eat{
   font-family: 'Lusitana', serif;
-
   color: #000000;
   font-size: 500px;
-  position: absolute;
+  position: relative;
   top: 10px;
   width: 100%;
   font-style: normal;
@@ -25,7 +24,7 @@ h4{
   font-family: 'Lusitana', serif;
   color: #000000;
   font-size: 200px;
-  position: absolute;
+  position: relative;
   width: 100%;
   bottom: 10px;
   left: 10px;
