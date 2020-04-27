@@ -14,8 +14,6 @@ div.eat{
   top: 10px;
   left: 0;
   width: 100%;
-  text-align: center;
-  align-items: center;
   justify-content: center;
 
 }
@@ -29,9 +27,7 @@ a.eat:hover{
   top: 10px;
   left: 0;
   width: 100%;
-  text-align: center;
   font-style: italic;
-  align-items: center;
   justify-content: center;
 }
 
