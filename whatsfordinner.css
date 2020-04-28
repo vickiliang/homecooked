@@ -16,14 +16,14 @@ div.options{
   align-items: center;
   height: 50%;
   float: none;
-  margin-top: 2%;
+  margin-top: 1%;
 }
 
 
 
 div.eat{
   font-family: Injurial;
-  font-size: 300px;
+  font-size: 200px;
   order: 1;
   font-style: normal;
 }
