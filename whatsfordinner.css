@@ -45,6 +45,7 @@ div.drink{
   font-size: 350px;
   font-style: normal;
   order: 2;
+  margin-top: -5%;
 }
 
 a.drink:link{
