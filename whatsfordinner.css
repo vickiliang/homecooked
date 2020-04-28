@@ -12,9 +12,7 @@ div.eat{
   font-family: 'Lusitana', serif;
   font-size: 500px;
   position: absolute;
-  top: 0;
-  left: 30%;
-  width: 100%;
+  margin-top: 1%;
   font-style: normal;
 }
 
@@ -37,8 +35,6 @@ h4{
   color: #000000;
   font-size: 200px;
   position: absolute;
-  top: 50%;
-  left: 30%;
   width: 100%;
   font-style: normal;
 }
