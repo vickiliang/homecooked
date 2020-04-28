@@ -10,5 +10,4 @@ randomlinks[4]="https://greenkitchenstories.com/potato-pizza/"
 
 function randomlink(){
 window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
-alert ('randomlink')
 }
