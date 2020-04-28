@@ -5,6 +5,8 @@
 @font-face {
   src: url(fonts/InjurialTrial-Regular.otf);
   font-family: Injurial;
+  src: url(fonts/savate-regular.otf);
+  font-family: savate;
 }
 
 div.options{
@@ -97,7 +99,7 @@ span.date{
   margin-top: 1%;
   font-family: savate;
   font-style: normal;
-  color: black;
+  color: #64dd17;
   font-size: 20px;
   position: fixed;
   right: 20px;
