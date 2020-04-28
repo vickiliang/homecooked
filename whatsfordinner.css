@@ -2,7 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo|Noto+Sans+JP&display=swap');
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC&display=swap');
 
-
+@font-face {
+  src: url(fonts/InjurialTrial-Regular.otf);
+  font-family: Injurial;
+}
 
 div.options{
   position: relative;
@@ -19,7 +22,7 @@ div.options{
 
 
 div.eat{
-  font-family: 'Lusitana', serif;
+  font-family: Injurial;
   font-size: 500px;
   order: 1;
   font-style: normal;
