@@ -4,7 +4,7 @@
 
 
 
-body{
+div{
   position: relative;
 }
 
@@ -32,7 +32,7 @@ a.eat:visited{
 }
 
 
-h4{
+div.drink{
   font-family: 'Lusitana', serif;
   color: #000000;
   font-size: 200px;
