@@ -45,7 +45,7 @@ div.drink{
   font-size: 350px;
   font-style: normal;
   order: 2;
-  margin-top: -5%;
+  margin-top: -2%;
 }
 
 a.drink:link{
@@ -80,6 +80,15 @@ a.submit:visited {
   color:#d50000;
 }
 
+h3{
+  margin-top: 1%;
+  font-family: savate;
+  font-style: normal;
+  color: black;
+  font-size: 20px;
+  position: fixed;
+  left: 20px;
+}
 
 span.date{
   margin-top: 1%;
