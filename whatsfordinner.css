@@ -6,6 +6,8 @@
 
 div.options{
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 div.eat{
@@ -39,7 +41,7 @@ div.drink{
   font-style: normal;
 }
 
-a.drink:link{
+a.drink:visited{
   color: black;
 }
 
