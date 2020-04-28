@@ -98,6 +98,18 @@ div.homecooked{
   left: 20px;
 }
 
+a.homecooked:link{
+  color: #64dd17;
+}
+
+a.homecooked:hover{
+  color: #64dd17;
+}
+
+a.homecooked:visited{
+  color: #64dd17;
+}
+
 span.date{
   margin-top: 1%;
   font-family: savate;
