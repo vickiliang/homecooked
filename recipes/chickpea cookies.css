@@ -69,7 +69,7 @@ img{
   max-width: 40%;
   height: auto;
   position: absolute;
-  left:10px;
+  left:20px;
   bottom: 80px
   animation-name: spin;
   animation-duration: 5000ms;
