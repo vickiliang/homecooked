@@ -44,6 +44,7 @@ div.drink{
   position: absolute;
   width: 100%;
   font-style: normal;
+  order: 2;
 }
 
 a.drink:link{
