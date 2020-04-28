@@ -89,12 +89,11 @@ a.submit:visited {
 }
 
 div.homecooked{
-  margin-top: 1%;
   font-family: savate;
   font-style: normal;
   color: black;
   font-size: 20px;
-
+  position: fixed;
 
 }
 
@@ -111,7 +110,6 @@ a.homecooked:visited{
 }
 
 span.date{
-  margin-top: 1%;
   font-family: savate;
   font-style: normal;
   color: #64dd17;
