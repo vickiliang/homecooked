@@ -5,6 +5,9 @@
 @font-face {
   src: url(fonts/InjurialTrial-Regular.otf);
   font-family: Injurial;
+}
+
+@font-face {
   src: url(fonts/savate-regular.otf);
   font-family: savate;
 }
