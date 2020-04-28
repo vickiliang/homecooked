@@ -92,14 +92,14 @@ div.homecooked{
   margin-top: 1%;
   font-family: savate;
   font-style: normal;
-  color: #64dd17;
+  color: black;
   font-size: 20px;
   position: fixed;
   left: 20px;
 }
 
 a.homecooked:link{
-  color: #64dd17;
+  color: black;
 }
 
 a.homecooked:hover{
@@ -107,7 +107,7 @@ a.homecooked:hover{
 }
 
 a.homecooked:visited{
-  color: #64dd17;
+  color: black;
 }
 
 span.date{
