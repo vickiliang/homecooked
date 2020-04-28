@@ -83,14 +83,14 @@ a.submit:visited {
   color:#d50000;
 }
 
-h3{
+div.homecooked{
   margin-top: 1%;
   font-family: savate;
   font-style: normal;
   color: black;
   font-size: 20px;
   position: fixed;
-
+  left: 20px;
 }
 
 span.date{
