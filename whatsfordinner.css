@@ -11,6 +11,13 @@ div.options{
   justify-content: center;
 }
 
+.options > div{
+  width: 100px;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+}
+
 div.eat{
   font-family: 'Lusitana', serif;
   font-size: 500px;
