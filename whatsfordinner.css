@@ -14,16 +14,16 @@ div.options{
   justify-content:space-evenly;
   align-content: center;
   align-items: center;
-  height: 50%;
+  height: 30%;
   float: none;
-  margin-top: 1%;
+  margin-top: 0.5%;
 }
 
 
 
 div.eat{
   font-family: Injurial;
-  font-size: 400px;
+  font-size: 350px;
   order: 1;
   font-style: normal;
 }
@@ -42,7 +42,7 @@ a.eat:hover{
 
 div.drink{
   font-family: Injurial;
-  font-size: 400px;
+  font-size: 350px;
   font-style: normal;
   order: 2;
 }
