@@ -7,7 +7,10 @@
   font-family: Injurial;
 }
 
-
+@font-face {
+  src: url(fonts/savate-regular.otf);
+  font-family: savate;
+}
 
 div.options{
   position: relative;
@@ -89,7 +92,7 @@ div.homecooked{
   margin-top: 1%;
   font-family: savate;
   font-style: normal;
-  color: black;
+  color: #64dd17;
   font-size: 20px;
   position: fixed;
   left: 20px;
