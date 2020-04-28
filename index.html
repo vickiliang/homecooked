@@ -32,7 +32,7 @@ href="whatsfordinner.css" media="screen"/>
   </div>
 
   <div class="drink">
-    <a href="#" class="drink" style="text-decoration: none">
+    <a href="javascript:drinkrandomlinks()" class="drink" style="text-decoration: none">
     drink
     </a>
   </div>
@@ -51,6 +51,22 @@ randomlinks[4]="https://greenkitchenstories.com/potato-pizza/"
 
 function randomlink(){
 window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
+}
+
+
+</script>
+
+<script type="text/javascript">
+var drinkrandomlinks=new Array()
+
+drinkrandomlinks[0]="recipes/matcha.html"
+drinkrandomlinks[1]="https://www.instagram.com/home____cooked/"
+drinkrandomlinks[2]="https://www.101cookbooks.com/green-juice-recipe/"
+drinkrandomlinks[3]="https://deliciouslyella.com/recipes/blueberry-banana-breakfast-smoothie/"
+drinkrandomlinks[4]="https://www.youtube.com/watch?v=n6ZZrBqRJCk"
+
+function drinkrandomlink(){
+window.location=drinkrandomlinks[Math.floor(Math.random()*drinkrandomlinks.length)]
 }
 </script>
 
