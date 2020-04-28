@@ -7,10 +7,7 @@
   font-family: Injurial;
 }
 
-@font-face {
-  src: url(fonts/savate-regular.otf);
-  font-family: savate;
-}
+
 
 div.options{
   position: relative;
