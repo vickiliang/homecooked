@@ -32,7 +32,7 @@ href="whatsfordinner.css" media="screen"/>
   </div>
 
   <div class="drink">
-    <a href="javascript:drinkrandomlinks()" class="drink" style="text-decoration: none">
+    <a href="javascript:drinkrandomlink()" class="drink" style="text-decoration: none">
     drink
     </a>
   </div>
@@ -57,17 +57,21 @@ window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
 </script>
 
 <script type="text/javascript">
-var drinkrandomlinks=new Array()
 
-drinkrandomlinks[0]="recipes/matcha.html"
-drinkrandomlinks[1]="https://www.instagram.com/home____cooked/"
-drinkrandomlinks[2]="https://www.101cookbooks.com/green-juice-recipe/"
-drinkrandomlinks[3]="https://deliciouslyella.com/recipes/blueberry-banana-breakfast-smoothie/"
-drinkrandomlinks[4]="https://www.youtube.com/watch?v=n6ZZrBqRJCk"
+function drinkrandomlink(){
 
-function drinkrandomlinks(){
-window.location=drinkrandomlinks[Math.floor(Math.random()*drinkrandomlinks.length)]
+var drinkrandom=Math.round(Math.random()*4)
+var links=new Array()
+
+links[0]="recipes/matcha.html"
+links[1]="https://www.instagram.com/home____cooked/"
+links[2]="https://www.101cookbooks.com/green-juice-recipe/"
+links[3]="https://deliciouslyella.com/recipes/blueberry-banana-breakfast-smoothie/"
+links[4]="https://www.youtube.com/watch?v=n6ZZrBqRJCk"
+
+window.location=links[drinkrandom]
 }
+
 </script>
 
 <script>
