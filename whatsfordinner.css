@@ -52,6 +52,7 @@ div.eat a img {
     position: absolute;
     left: -80px;
     top: -22px;
+    max-width: 10%;
 }
 div.eat a {
     display: inline-block;
