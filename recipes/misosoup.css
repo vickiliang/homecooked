@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Lusitana&display=swap');
+
+@font-face {
+  src: url(fonts/Fahkwang-Regular.ttf);
+  font-family: fah;
+}
+
+h1{
+  font-family: fah;
+  font-size: 280px;
+  color: #ff6f00;
+  grid-area: header;
+  margin-top: -10px;
+  text-align: center;
+  position: absolute;
+}
+
+
+
 img{
   position: absolute;
   top: 50%;
@@ -6,9 +25,6 @@ img{
   transform: translate(-50%, -50%);
   max-width: 10%;
 }
-
-
-
 
 
 .somethingelse{
