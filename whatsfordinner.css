@@ -50,6 +50,7 @@ a.eat:hover{
 div.eat a img {
     display: none;
     position: absolute;
+    left: 0;
     right: 10px;
     top: 50px;
     max-width: 40%;
@@ -135,4 +136,5 @@ span.date{
   font-size: 20px;
   position: fixed;
   right: 20px;
+  top: O;
 }
