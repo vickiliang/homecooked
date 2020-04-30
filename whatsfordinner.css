@@ -50,9 +50,6 @@ a.eat:hover{
 div.eat a img {
     display: none;
     position: absolute;
-    left: 50px;
-    right: 0;
-    top: 50px;
     max-width: 40%;
 }
 div.eat a {
@@ -64,6 +61,8 @@ div.eat a img {
 }
 div.eat a:hover img {
     display: inherit;
+    top: 50px;
+    left: 50px;
 }
 
 
@@ -113,16 +112,15 @@ h1{
   font-style: normal;
   color: black;
   font-size: 20px;
-  margin-top: -10px;
+  margin-top: -2px;
 }
 
 
-
-a.homecooked:hover{
+h1:hover{
   color: #64dd17;
 }
 
-a.homecooked:visited{
+h1:visited{
   color: black;
 }
 
