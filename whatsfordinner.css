@@ -50,8 +50,8 @@ a.eat:hover{
 div.eat a img {
     display: none;
     position: absolute;
-    left: 0;
-    right: 10px;
+    left: 50px;
+    right: 0;
     top: 50px;
     max-width: 40%;
 }
@@ -113,13 +113,11 @@ div.homecooked{
   font-style: normal;
   color: black;
   font-size: 20px;
-
+  position: fixed;
 
 }
 
-a.homecooked:link{
-  color: black;
-}
+
 
 a.homecooked:hover{
   color: #64dd17;
