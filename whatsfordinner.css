@@ -50,8 +50,8 @@ a.eat:hover{
 div.eat a img {
     display: none;
     position: absolute;
-    right: 40px;
-    top: 30px;
+    right: 20%;
+    top: 50px;
     max-width: 40%;
 }
 div.eat a {
