@@ -57,15 +57,7 @@ a:hover img {
 
 img.popupimg {
   max-width: 10%;
-}
-#previewImage {
-  position: absolute;
-  display: none;
-  color: #fff;
-  z-index: 2;
-  img {
-    width: 35vw;
-  }
+
 }
 
 div.drink{

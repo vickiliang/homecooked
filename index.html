@@ -26,8 +26,8 @@ href="whatsfordinner.css" media="screen"/>
 <div class="options">
 
   <div class="eat">
-    <a href="javascript:randomlink()" class="eat" style="text-decoration: none">
-    eat <img class="popupimg" src="images/silverbeet.png" />
+    <a href="javascript:randomlink()" onMouseOver="showImage('popupimg')" class="eat" style="text-decoration: none">
+    eat <img class="popupimg" src="images/silverbeet.png"/>
     </a>
   </div>
 
@@ -92,46 +92,10 @@ document.getElementById("date").style.top = "20px";
 </script>
 
 <script type="text/javascript">
-
-function previewImages() {
-  xOffset = 200;
-  yOffset = 80;
-
-
-  $("img.popupimg").hover(function(e) {
-
-      var $this = $(this); // caching $(this)
-
-      $this.data('initialText', $this.text());
-      $this.text("Download").delay(1200); // Set text
-
-      $("body").append("<div id='previewImage'><img src='" + this.rel + "' alt='rens preview image' />" + "</div>");
-
-      $("#previewImage")
-        .css("top", (e.pageY - xOffset) + "px")
-        .css("left", (e.pageX + yOffset) + "px")
-        .fadeIn("fast");
-    },
-    function() {
-
-      var $this = $(this); // caching $(this)
-      $this.text($this.data('initialText'));
-
-      $("#previewImage").remove();
-    });
-
-  $("a.screenshot").mousemove(function(e) {
-
-    $("#previewImage")
-      .css("top", (e.pageY - xOffset) + "px")
-      .css("left", (e.pageX + yOffset) + "px");
-
-  });
-
-  previewImages();
-
-};
-
+function showImage(imageVar)
+{
+document.getElementById(imageVar).style.display="block"
+}
 </script>
 
 
