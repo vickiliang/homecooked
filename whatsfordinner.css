@@ -57,6 +57,13 @@ div.eat a {
     display: inline-block;
     position: relative;
 }
+div.eat a img {
+    display: none;
+}
+div.eat a:hover img {
+    display: inherit;
+}
+
 
 
 div.drink{
