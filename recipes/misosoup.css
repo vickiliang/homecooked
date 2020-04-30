@@ -1,0 +1,21 @@
+img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  max-width: 50%;
+}
+
+.somethingelse{
+  font-family: 'Lusitana', serif;
+  text-align: center;
+  color: #0d47a1;
+  font-size: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  grid-area: footer;
+}
