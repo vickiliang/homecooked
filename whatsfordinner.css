@@ -46,7 +46,13 @@ a.eat:hover{
   font-style: italic;
 }
 
+a img{
+  display: none;
+}
 
+a:hover img {
+  display: block;
+}
 
 div.drink{
   font-family: Injurial;
