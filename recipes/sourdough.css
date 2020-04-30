@@ -1,0 +1,41 @@
+@font-face {
+  src: url(fonts/Molle-Italic.ttf);
+  font-family: molle;
+}
+
+
+@font-face {
+  src: url(fonts/Fahkwang-Regular.ttf);
+  font-family: fah;
+}
+
+h1{
+  font-family: molle;
+  font-size: 100px;
+  color: #ff6f00;
+  grid-area: header;
+  margin-top: -10px;
+  align-items: center;
+  position: relative;
+}
+
+
+p{
+  font-family: fah;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  max-width: 50%;
+}
