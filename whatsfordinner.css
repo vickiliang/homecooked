@@ -51,7 +51,11 @@ a img{
 }
 
 a:hover img {
-  display: flex;
+  display: inline-block;
+}
+
+img.popupimg {
+  max-width: 40%;
 }
 
 div.drink{
