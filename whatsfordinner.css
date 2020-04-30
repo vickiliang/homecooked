@@ -51,7 +51,7 @@ a img{
 }
 
 a:hover img {
-  display: block;
+  display: inline-block;
 }
 
 div.drink{
