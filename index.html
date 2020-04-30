@@ -40,6 +40,23 @@ href="whatsfordinner.css" media="screen"/>
 </div>
 
 
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+    $(".eat a").mouseover(function () {
+        $(".eat a img").css("display", "none"); // hide all product images
+        $(this).find("img").css("display", "inline-block"); // show current hover image
+    })
+    $(".eat a").mouseout(function () {
+        $(".eat a img").css("display", "none"); // hide all product images
+    })
+});
+
+
+</script>
+
+
 <script type="text/javascript">
 var randomlinks=new Array()
 

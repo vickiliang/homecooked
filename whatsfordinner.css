@@ -46,19 +46,18 @@ a.eat:hover{
   font-style: italic;
 }
 
-a img{
-  display: none;
+
+div.eat a img {
+    display: none;
+    position: absolute;
+    left: -80px;
+    top: -22px;
+}
+div.eat a {
+    display: inline-block;
+    position: relative;
 }
 
-a:hover img {
-  display: inline;
-  margin-top: -5%;
-}
-
-img.popupimg {
-  max-width: 10%;
-
-}
 
 div.drink{
   font-family: Injurial;
