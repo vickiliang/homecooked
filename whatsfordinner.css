@@ -60,7 +60,7 @@ div.eat a img {
     display: none;
 }
 div.eat a:hover img {
-    display: relative;
+    display: inherit;
     top: 50px;
     left: 50px;
 }
