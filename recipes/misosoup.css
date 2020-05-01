@@ -5,24 +5,28 @@
   font-family: fah;
 }
 
+@font-face {
+  src: url(fonts/Asset-Regular.ttf);
+  font-family: asset;
+}
+
 h1{
-  font-family: fah;
-  font-size: 280px;
-  color: #ff6f00;
-  grid-area: header;
+  font-family: asset;
+  font-size: 150px;
+  color: #80d8ff;
   margin-top: -10px;
   text-align: center;
   position: absolute;
+  z-index: 2;
 }
 
 
 img{
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 10%;
+  left: 30%;
   margin-right: -50%;
-  transform: translate(-50%, -50%);
-  max-width: 10%;
+  max-width: 70%;
 }
 
 
