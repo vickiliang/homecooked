@@ -60,7 +60,7 @@ div.eat a img {
     display: none;
 }
 div.eat a:hover img {
-    display: inherit;
+    display: relative;
     top: 50px;
     left: 50px;
 }
@@ -107,7 +107,8 @@ a.submit:visited {
   color:#d50000;
 }
 
-h1{
+
+.homecooked{
   font-family: savate;
   font-style: normal;
   color: black;
@@ -116,13 +117,14 @@ h1{
 }
 
 
-h1:hover{
+a.homecooked:hover{
   color: #64dd17;
 }
 
-h1:visited{
+a.homecooked:visited{
   color: black;
 }
+
 
 span.date{
   font-family: savate;
