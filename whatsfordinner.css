@@ -144,10 +144,10 @@ span.date{
   and (-webkit-min-device-pixel-ratio: 3) {
 
 div.eat{
-  font-size: 50px;
+  font-size: 100px;
 }
 
 div.drink{
-  font-size: 50px;
+  font-size: 100px;
 }
 }
