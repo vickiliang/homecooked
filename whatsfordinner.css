@@ -143,4 +143,11 @@ span.date{
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3) {
 
+div.eat{
+  font-size: 150px;
+}
+
+div.drink{
+  font-size: 150px;
+}
 }
