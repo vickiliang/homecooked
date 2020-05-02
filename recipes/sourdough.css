@@ -61,7 +61,9 @@ img{
   and (-webkit-min-device-pixel-ratio: 3) {
 
     h1{
-      font-size: 20px;
+      font-size: 80px;
+      margin-top: auto;
+      margin-left: auto;
     }
 
 }
