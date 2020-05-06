@@ -31,10 +31,13 @@ div.eat{
   font-size: 350px;
   order: 1;
   font-style: normal;
+  text-decoration: none;
+
 }
 
 a.eat:link{
   color: black;
+
 }
 
 a.eat:visited{
@@ -42,7 +45,7 @@ a.eat:visited{
 }
 
 a.eat:hover{
-  color: #29b6f6;
+  color: #1b5e20;
   font-style: italic;
 }
 
@@ -52,7 +55,7 @@ div.eat a img {
     position: absolute;
     max-width: 35%;
     top: 80px;
-    left: 650px;
+    left: 200px;
 }
 div.eat a {
     display: inline-block;
@@ -85,8 +88,27 @@ a.drink:visited{
 }
 
 a.drink:hover{
-  color: #d500f9;
+  color: Khaki;
   font-style: italic;
+}
+
+div.drink a img {
+    display: none;
+    position: absolute;
+    max-width: 35%;
+    top: 80px;
+    left: 400px;
+}
+div.drink a {
+    display: inline-block;
+    position: relative;
+}
+div.drink a img {
+    display: none;
+}
+div.drink a:hover img {
+    display: inherit;
+
 }
 
 
@@ -138,6 +160,32 @@ span.date{
 }
 
 
+.tooltip{
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  font-family: Injurial;
+  font-size: 15px;
+  width: 120px;
+  background-color: white;
+  color: #1a237e;
+  text-align: left;
+  border-radius: 6px;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  z-index: 1;
+  font-style: normal;
+
+}
+
+.tooltip:hover .tooltiptext{
+  visibility: visible;
+}
+
+
 @media only screen
   and (min-device-width: 375px)
   and (max-device-width: 812px)
@@ -145,7 +193,7 @@ span.date{
 
 div.eat{
   font-size: 100px;
-margin-top: 120px;
+  margin-top: 120px
 }
 
 div.drink{

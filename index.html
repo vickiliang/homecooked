@@ -12,8 +12,10 @@ href="whatsfordinner.css" media="screen"/>
 
 <body>
 
-<h1>
-  <a href="https://www.instagram.com/home____cooked/" class="homecooked" style="text-decoration: none">homecooked</a>
+<h1 class="tooltip">
+  <a href="https://www.instagram.com/home____cooked/" class="homecooked" style="text-decoration: none">
+    homecooked <span class="tooltiptext">this is a community. </span>
+  </a>
 </h1>
 
 <h2>
@@ -22,17 +24,25 @@ href="whatsfordinner.css" media="screen"/>
 
 
 
+  <style>
+    a { text-decoration: none;}
+  </style>
+
 <div class="options">
 
   <div class="eat">
-    <a href="javascript:randomlink()" onMouseOver="showImage('popupimg')" class="eat" style="text-decoration: none">
-    eat <img class="popupimg" src="images/silverbeet.png"/>
+    <a href="javascript:randomlink()" class="eat" onmouseover= "document.bgColor='#1b5e20'"
+    onmouseout="document.bgColor='white'"
+     >
+    eat <img class="popupimg" src="images/silverbeet.png" />
     </a>
   </div>
 
+
   <div class="drink">
-    <a href="javascript:drinkrandomlink()" class="drink" style="text-decoration: none">
-    drink
+    <a href="javascript:drinkrandomlink()" class="drink" onmouseover= "document.bgColor='Khaki'"
+    onmouseout="document.bgColor='white'" style="text-decoration: none">
+    drink <img class="popupimg" src="images/glass.png" />
     </a>
   </div>
 
@@ -49,7 +59,7 @@ var randomlinks=new Array()
 randomlinks[0]="recipes/chocochip chickpea cookies.html"
 randomlinks[1]="https://www.instagram.com/home____cooked/"
 randomlinks[2]="recipes/sourdough.html"
-randomlinks[3]="https://bread-on.earth/"
+randomlinks[3]="recipes/cheungfun.html"
 randomlinks[4]="recipes/misosoup.html"
 
 function randomlink(){

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Lusitana&display=swap');
+
+@font-face {
+  src: url(fonts/InjurialTrial-Regular.otf);
+  font-family: Injurial;
+}
+
+
+
+h1{
+font-family: Injurial;
+font-size: 150px;
+color: #0d47a1;
+width: 100%;
+text-align: center;
+margin-top: -2%;
+}
+
+p{
+  font-family: fah;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  left: 45%;
+  bottom: 25%;
+  width: 50%;
+  text-align: left;
+  line-height: 23px;
+}
+
+span.matcha{
+  line-height: 200px;
+}
+
+a.matcha:link{
+  color: black;
+}
+
+a.matcha:visited{
+  color: black;
+}
+
+a.matcha:hover{
+  color: #6200ea;
+  font-style: italic;
+}
+
+a.recipes:link{
+  color: black;
+}
+
+a.recipes:visited{
+  color: black;
+}
+a.recipes:hover{
+  color: #6200ea;
+  font-style: italic;
+}
+
+div.home{
+  font-family: Lusitana;
+  font-size: 20px;
+  color: #d50000;
+  text-align: right;
+  width: 73%;
+  position: fixed;
+  bottom: 2%;
+}
+
+a.home:visited {
+  color: #d50000;
+}
+
+div.submit{
+  font-family: Lusitana;
+  font-size: 20px;
+  color: #d50000;
+  text-align: left;
+  position: fixed;
+  bottom: 2%;
+  left: 25%;
+}
+
+a.submit:visited {
+  color: #d50000;
+}
