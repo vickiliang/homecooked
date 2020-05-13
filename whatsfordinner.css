@@ -193,10 +193,21 @@ span.date{
 
 div.eat{
   font-size: 100px;
-  margin-top: 120px
+  margin-top: 200px
 }
 
 div.drink{
   font-size: 100px;
 }
+
+div.drink a img {
+  
+    left: 200px;
+}
+
+div.eat a img {
+
+    left: 50px;
+}
+
 }
