@@ -101,7 +101,8 @@ div.chocochipchickpeacookies{
 }
 
 img{
-  right:10%;
+  max-width: 30%;
+  left: 30%;
   bottom: 30%;
 }
 

@@ -201,13 +201,14 @@ div.drink{
 }
 
 div.drink a img {
-  
+
     left: 200px;
 }
 
 div.eat a img {
 
-    left: 50px;
+    left: 50%;
+    top: 25%;
 }
 
 }
