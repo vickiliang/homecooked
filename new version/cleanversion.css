@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
+@font-face {
+  font-family: 'funkford';
+  src: url('../fonts/Funkford.otf')
+       format('otf');
+     }
+
+p{
+  font-family: fah;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  right: 5%;
+  top: 1%;
+  width: 50%;
+  text-align: right;
+  line-height: 23px;
+}
+
+span.matcha{
+  line-height: 200px;
+}
+
+a.matcha:link{
+  color: black;
+}
+
+a.matcha:visited{
+  color: black;
+}
+
+a.matcha:hover{
+  color: #6200ea;
+  font-style: italic;
+}
+
+a.recipes:link{
+  color: black;
+}
+
+a.recipes:visited{
+  color: black;
+}
+a.recipes:hover{
+  color: #6200ea;
+  font-style: italic;
+}
+
+a.cookies:link{
+  color: black;
+}
+
+a.cookies:visited{
+  color: black;
+}
+a.cookies:hover{
+  color: #6200ea;
+  font-style: italic;
+}
+
+/* NOTE:  Submission */
+div.submit{
+  font-family: Lusitana;
+  font-size: 20px;
+  color: #d50000;
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+}
+
+div.submit:hover{
+  font-style: italic;
+}
+
+a.submit:visited {
+  color: #d50000;
+}
+
+
+/* NOTE: POP UP IMAGE */
+
+p a img {
+    display: none;
+    position: absolute;
+    max-width: 530%;
+    top: -570%;
+    left: -1500%;
+}
+
+p a {
+    display: inline-block;
+    position: relative;
+}
+p a img{
+  display:none;
+}
+
+p a:hover img{
+    display: inherit;
+
+}
+
+p {
+  margin-left: 5%;
+}
+
+
+/* NOTE: tooltip */
+
+span.tips{
+  font-family: 'EB Garamond', serif;
+  font-size: 15px;
+  font-style: italic;
+  color: #1a237e;
+}
+
+span.ingredients{
+  font-family: 'funkford';
+  font-size: 60px;
+  font-style: normal;
+  color: #e040fb;
+  line-height: 1.8;
+}
+span.things{
+  display: table-cell;
+}
+
+span.method{
+  font-family: 'funkford';
+  font-size: 60px;
+  font-style: normal;
+  color: #e040fb;
+  line-height: 1.8;
+  display: table-cell;
+}
+
+span.steps{
+  display: table-cell;
+  padding-left: 100px;
+}
+
+span.viola{
+  font-family: 'EB Garamond', serif;
+  font-size: 50px;
+  color: #004d40;
+  line-height: 7;
+  font-style: italic;
+}
+
+
+
+.cookies{
+  display: inline-block;
+}
+
+.cookies .tooltiptext {
+  visibility: hidden;
+  font-family: Injurial;
+  font-size: 20px;
+  width: 500%;
+  float: left;
+  color: #1a237e;
+  text-align: left;
+  position: absolute;
+  display: table;
+  right: 50%;
+  font-style: normal;
+
+}
+
+.cookies:hover .tooltiptext{
+  visibility: visible;
+}

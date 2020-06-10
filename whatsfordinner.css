@@ -54,8 +54,8 @@ div.eat a img {
     display: none;
     position: absolute;
     max-width: 35%;
-    top: 80px;
-    left: 200px;
+    top: 20%;
+    left: 30%;
 }
 div.eat a {
     display: inline-block;
@@ -96,8 +96,8 @@ div.drink a img {
     display: none;
     position: absolute;
     max-width: 35%;
-    top: 80px;
-    left: 400px;
+    bottom: 5%;
+    left: 30%;
 }
 div.drink a {
     display: inline-block;
@@ -193,7 +193,7 @@ span.date{
 
 div.eat{
   font-size: 100px;
-  margin-top: 200px
+  margin-top: 200px;
 }
 
 div.drink{
@@ -211,4 +211,32 @@ div.eat a img {
     top: 25%;
 }
 
+}
+
+
+
+@media screen and (max-width: 900px) {
+  div.drink{
+    font-size: 175px;
+  }
+
+  div.eat{
+    font-size: 175px;
+  }
+
+  div.options{
+    margin-top: 20%;
+  }
+
+  div.eat a img {
+    left: 20%;
+    top: 5%;
+    max-width: 50%;
+  }
+
+  div.drink a img{
+    left: 20%;
+    bottom: 5%;
+    max-width: 50%;
+  }
 }
