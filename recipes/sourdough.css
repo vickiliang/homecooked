@@ -11,31 +11,56 @@
   font-family: fah;
 }
 
+@font-face {
+  src: url(fonts/Big Caslon Regular.otf);
+  font-family: caslon;
+}
+
+
 h1{
   font-family: molle;
-  font-size: 200px;
+  font-size: 50px;
   color: #004d40;
-  text-align: center;
   width: 100%;
   position: absolute;
-  top: -18%;
+  top: -2%;
+  left: 2%;
 }
 
 
 p{
   font-family: fah;
   color: #ffd600;
-  font-size: 20px;
+  font-size: 12px;
   position: absolute;
-  bottom: 10%;
-  width: 100%;
-  text-align: center;
+  top: 5%;
+  left: 55%;
+  width: 50%;
 }
 
-img{
+p.method{
+  font-family: fah;
+  color: #ffd600;
+  font-size: 12px;
+  position: absolute;
+  top: 5%;
+  left: 75%;
+  width: 50%;
+}
+img.sourdough{
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 20%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  max-width: 40%;
+
+}
+
+img.notes{
+  position: absolute;
+  top: 50%;
+  left: 70%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   max-width: 30%;
@@ -71,6 +96,19 @@ a.bread:visited{
 }
 
 a.bread:hover{
+  color: #0d47a1;
+  font-style:italic;
+}
+
+a.method:link{
+  color: #ffd600;
+}
+
+a.method:visited{
+  color: #ffd600;
+}
+
+a.method:hover{
   color: #0d47a1;
   font-style:italic;
 }
