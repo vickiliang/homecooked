@@ -6,26 +6,56 @@
 }
 
 
+.archive{
+  height: 10vh;
+  width: auto;
+  display: flex;
+}
+
+.image{
+  max-width:50%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  margin: auto;s
+}
+.recipes{
+  width: 50%;
+
+}
+
+.recipes div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
 
 h1{
 font-family: Injurial;
 font-size: 150px;
 color: #0d47a1;
-width: 100%;
-text-align: center;
-margin-top: -2%;
+width: 80%;
+align-items: center;
+margin-top: -3%;
 }
+
 
 p{
   font-family: fah;
   color: black;
   font-size: 20px;
-  position: absolute;
-  left: 45%;
-  bottom: 25%;
-  width: 50%;
-  text-align: left;
-  line-height: 23px;
+  text-align: justify;
+  margin-top: -10%;
 }
 
 span.matcha{
@@ -84,7 +114,6 @@ div.submit{
 a.submit:visited {
   color: #d50000;
 }
-
 
 @media only screen
   and (min-device-width: 375px)
